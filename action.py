@@ -16,17 +16,6 @@ print"""
 
 		<!-- Wrapper -->
 			<div id="wrapper" class="fade-in">
-
-				<!-- Intro -->
-					<div id="intro">
-						<h1>Serre<br />
-						Bot Couarch</h1>
-						<p>Automation system</p>
-						<ul class="actions">
-							<li><a href="#header" class="button icon solid solo fa-arrow-down scrolly">Continue</a></li>
-						</ul>
-					</div>
-
 				<!-- Header -->
 					<header id="header">
 						<a href="index.html" class="logo">Bot Couarch</a>
@@ -50,51 +39,12 @@ print"""
 
 						<section class="post">
 
-						<!-- Table -->
-							<h3>Etat des capteurs de suveillances</h3>
-							<div class="table-wrapper">
-								<table>
-									<thead>
-										<tr>
-											<th>Capteur</th>
-											<th>Description</th>
-											<th>Etat</th>
-										</tr>
-									</thead>
-									<tbody>
-										<tr>
-											<td>Température</td>
-											<td>Température interne de la serre, à l'ombre.</td>
-											<td>XXXX</td>
-										</tr>
-										<tr>
-											<td>Humidité</td>
-											<td>Humidité ambiante de la serre en %.</td>
-											<td>XXXX</td>
-										</tr>
-										<tr>
-											<td>Luminosité</td>
-											<td>Luminosité de mesurée au centre de la serre (en lumen).</td>
-											<td>XXXX</td>
-										</tr>
-										<tr>
-											<td>Porte</td>
-											<td>Position de la porte (ouverte/fermée).</td>
-											<td>XXXX</td>
-										</tr>
-										<tr>
-											<td>Fenêtre</td>
-											<td>Position de la fenêtre (ouverte/fermée).</td>
-											<td>XXXX</td>
-										</tr>
+						<a>Any</a>
 
-									</tbody>
-								</table>
-							</div>
 						</section>
 					</div>
 
-						
+
 
 				<!-- Footer -->
 					<footer id="footer">
