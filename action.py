@@ -24,8 +24,8 @@ print"""
 				<!-- Nav -->
 					<nav id="nav">
 						<ul class="links">
-							<li class="active"><a href="index.py">Capteurs</a></li>
-							<li><a href="action.py">Actionneurs</a></li>
+							<li><a href="index.py">Capteurs</a></li>
+							<li class="active"><a href="action.py">Actionneurs</a></li>
 							<li><a href="configuration.py">Configuration</a></li>
 						</ul>
 						<ul class="icons">
@@ -38,8 +38,57 @@ print"""
 					<div id="main">
 
 						<section class="post">
+						<!-- Fenêtre -->
+							<h2>Fenêtre Serre</h2>
 
-						<a>Any</a>
+							<div class="table-wrapper">
+								<table>
+									<tbody>
+										<tr>
+											<td>La fenêtre est actuellement</td>
+											<td>XXXX</td>
+										</tr>
+									</tbody>
+								</table>
+							</div>
+
+							<div class="row gtr-uniform">
+								<p>Temps d'ouverture de la fenêtre: </p>
+								<div class="col-6 col-12-xsmall">
+									<input type="text" name="demo-name" id="demo-name" value="" placeholder="En minutes" />
+								</div>
+							</div>
+								<ul class="actions">
+									<li><a href="#" class="button primary">Fermer</a></li>
+									<li><a href="#" class="button">Ouvrir</a></li>
+								</ul>
+							<hr />
+
+							<h2>Arrosage Serre</h2>
+
+							<div class="table-wrapper">
+								<table>
+									<tbody>
+										<tr>
+											<td>L'arrosage est actuellement</td>
+											<td>XXXX</td>
+										</tr>
+									</tbody>
+								</table>
+							</div>
+
+							<div class="row gtr-uniform">
+								<p>Temps d'arrosage de la serre: </p>
+								<div class="col-6 col-12-xsmall">
+									<input type="text" name="demo-name" id="demo-name" value="" placeholder="En minutes" />
+								</div>
+							</div>
+								<ul class="actions">
+									<li><a href="#" class="button primary">Eteindre</a></li>
+									<li><a href="#" class="button">Allumer</a></li>
+								</ul>
+							<hr />
+
 
 						</section>
 					</div>
@@ -111,6 +160,4 @@ print"""
 
 	</body>
 </html>
-
-
 """
