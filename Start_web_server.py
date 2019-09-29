@@ -11,13 +11,11 @@
 """
 
 import BaseHTTPServer
-import cgitb
-import sys
 import logging
+import sys
 
 from CGIOverloadIndex import CGIHandlerOverloadIndex
 from Init import Init
-from DefaultsValues import HTTP_default_port_test
 
 
 class Main(object):
